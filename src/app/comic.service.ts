@@ -21,4 +21,9 @@ export class ComicService {
   addComic(c: Comic): Observable<Comic> {
     return this.httpClient.post<Comic>(`${this.apiUrl}`, c);
   }
+  searchText(searchText: string): Observable<Comic[]> {
+    return this.httpClient.get<Comic[]>(
+      `${this.apiUrl}/search_title=${searchText}`,
+    );
+  }
 }
