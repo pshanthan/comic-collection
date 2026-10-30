@@ -23,7 +23,7 @@ export class ComicService {
   }
   searchText(searchText: string): Observable<Comic[]> {
     return this.httpClient.get<Comic[]>(
-      `${this.apiUrl}/search_title=${searchText}`,
+      `${this.apiUrl}?search_title=${searchText}`,
     );
   }
 }
