@@ -11,6 +11,11 @@ export class ListComponent {
   constructor(private comicService: ComicService) {}
   comics: Comic[] = [];
   getComics() {
-    this.comicService.getComics().subscribe((comic) => (this.comics = comic));
+    this.comicService.getComics().subscribe((comics) => (this.comics = comics));
+  }
+  deleteComic(id: number) {
+    this.comicService
+      .deleteComic(id)
+      .subscribe(() => (this.comics = this.comics.filter()));
   }
 }
