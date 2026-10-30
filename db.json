@@ -1,0 +1,139 @@
+{
+  "comics": [
+    {
+      "id": 1,
+      "title": "Amazing Fantasy",
+      "publisher": "Marvel",
+      "issueNumber": 15,
+      "releaseDate": "1962-08-01",
+      "value": 850000,
+      "graded": true
+    },
+    {
+      "id": 2,
+      "title": "Detective Comics",
+      "publisher": "DC",
+      "issueNumber": 27,
+      "releaseDate": "1939-05-01",
+      "value": 1200000,
+      "graded": true
+    },
+    {
+      "id": 3,
+      "title": "Action Comics",
+      "publisher": "DC",
+      "issueNumber": 1,
+      "releaseDate": "1938-06-01",
+      "value": 2500000,
+      "graded": true
+    },
+    {
+      "id": 4,
+      "title": "X-Men",
+      "publisher": "Marvel",
+      "issueNumber": 1,
+      "releaseDate": "1963-09-01",
+      "value": 45000,
+      "graded": false
+    },
+    {
+      "id": 5,
+      "title": "The Walking Dead",
+      "publisher": "Image",
+      "issueNumber": 1,
+      "releaseDate": "2003-10-01",
+      "value": 3200,
+      "graded": false
+    },
+    {
+      "id": 6,
+      "title": "Batman",
+      "publisher": "DC",
+      "issueNumber": 1,
+      "releaseDate": "1940-04-01",
+      "value": 650000,
+      "graded": true
+    },
+    {
+      "id": 7,
+      "title": "Saga",
+      "publisher": "Image",
+      "issueNumber": 1,
+      "releaseDate": "2012-03-01",
+      "value": 85,
+      "graded": false
+    },
+    {
+      "id": 8,
+      "title": "Spider-Man",
+      "publisher": "Marvel",
+      "issueNumber": 300,
+      "releaseDate": "1988-05-01",
+      "value": 450,
+      "graded": false
+    },
+    {
+      "id": 9,
+      "title": "Hellboy: Seed of Destruction",
+      "publisher": "Dark Horse",
+      "issueNumber": 1,
+      "releaseDate": "1994-03-01",
+      "value": 220,
+      "graded": false
+    },
+    {
+      "id": 10,
+      "title": "All-Star Comics",
+      "publisher": "DC",
+      "issueNumber": 8,
+      "releaseDate": "1941-12-01",
+      "value": 320000,
+      "graded": true
+    },
+    {
+      "id": 11,
+      "title": "Invincible",
+      "publisher": "Image",
+      "issueNumber": 1,
+      "releaseDate": "2003-01-01",
+      "value": 950,
+      "graded": false
+    },
+    {
+      "id": 12,
+      "title": "The Dark Knight Returns",
+      "publisher": "DC",
+      "issueNumber": 1,
+      "releaseDate": "1986-02-01",
+      "value": 120,
+      "graded": true
+    },
+    {
+      "id": 13,
+      "title": "Watchmen",
+      "publisher": "DC",
+      "issueNumber": 1,
+      "releaseDate": "1986-09-01",
+      "value": 95,
+      "graded": false
+    },
+    {
+      "id": 14,
+      "title": "Teenage Mutant Ninja Turtles",
+      "publisher": "Mirage",
+      "issueNumber": 1,
+      "releaseDate": "1984-05-01",
+      "value": 2800,
+      "graded": true
+    },
+    {
+      "id": 15,
+      "title": "Spawn",
+      "publisher": "Image",
+      "issueNumber": 1,
+      "releaseDate": "1992-05-01",
+      "value": 45,
+      "graded": false
+    }
+  ]
+}
