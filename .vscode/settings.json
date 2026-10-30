@@ -1,3 +1,5 @@
 {
-  "gitdoc.enabled": true
+  "gitdoc.enabled": true,
+  "gitdoc.commitValidationLevel": "none",
+  "gitdoc.autoPush": "onCommit"
 }
