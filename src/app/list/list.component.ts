@@ -16,6 +16,6 @@ export class ListComponent {
   deleteComic(id: number) {
     this.comicService
       .deleteComic(id)
-      .subscribe(() => (this.comics = this.comics.filter()));
+      .subscribe(() => (this.comics = this.comics.filter((c) => c.id !== id)));
   }
 }
